@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+input {
+    padding: 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ticket {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.query {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: brown;
+}
+
+.table {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}

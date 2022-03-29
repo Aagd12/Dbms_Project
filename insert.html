@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <center>
+        <h1>Web Based server</h1>
+        <h3 class="table">Ticket</h3>
+    </center>
+    <form class="ticket" action="/insert" method="POST">
+        <div class="for">
+            <input type="number" placeholder="t_id">
+            <input type="text" placeholder="t_date">
+            <input type="number" placeholder="t_amount">
+            <input type="number" placeholder="p_id">
+        </div>
+        <div class="query">
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- <input type="submit" value="t_delete" id="t_delete" placeholder="Delete">
+            <input type="submit" value="t_Update" id="t_Update" placeholder="Update">
+            <input type="submit" value="submit" id="submit" placeholder="View"> -->
+        </div>
+    </form>
+</body>
+
+</html>

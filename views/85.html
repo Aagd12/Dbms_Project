@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_7</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <center>
+        <h1>Web Based server</h1>
+        <h3 class="table">Ticket</h3>
+    </center>
+    <form class="ticket" action="/insert" method="get">
+        <div class="for">
+            <input type="number" placeholder="t_id">
+            <input type="text" placeholder="t_date">
+            <input type="number" placeholder="t_amount">
+            <input type="number" placeholder="p_id">
+        </div>
+        <div class="query">
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    <center>
+        <h1>Web Based server</h1>
+        <h3 class="table">Passenger</h3>
+    </center>
+    <form class="ticket" action="/insert">
+        <div class="for">
+            <input type="number" placeholder="p_id">
+            <input type="text" placeholder="p_name">
+            <input type="text" placeholder="p_address">
+            <input type="number" placeholder="t_id">
+            <input type="number" placeholder="b_no">
+        </div>
+        <div class="query">
+            <input type="submit" value="p_insert" id="p_insert" placeholder="Insert">
+            <input type="submit" value="p_delete" id="p_delete" placeholder="Delete">
+            <input type="submit" value="p_Update" id="p_Update" placeholder="Update">
+            <input type="submit" value="p_view" id="p_View" placeholder="View">
+        </div>
+    </form>
+    <center>
+        <h1>Web Based server</h1>
+        <h3 class="table">Bus</h3>
+    </center>
+    <form class="ticket" action="/insert">
+        <div class="for">
+            <input type="number" placeholder="B_no">
+            <input type="text" placeholder="B_time">
+            <input type="text" placeholder="B_route">
+            <input type="number" placeholder="p_id">
+        </div>
+        <div class="query">
+            <input type="submit" value="b_insert" id="b_insert" placeholder="Insert">
+            <input type="submit" value="b_delete" id="b_delete" placeholder="Delete">
+            <input type="submit" value="b_Update" id="b_Update" placeholder="Update">
+            <input type="submit" value="b_View" id="b_View" placeholder="View">
+        </div>
+    </form>
+    <center>
+        <h1>Web Based server</h1>
+        <h3 class="table">conducter</h3>
+    </center>
+    <form class="ticket" action="/insert">
+        <div class="for">
+            <input type="number" placeholder="c_id">
+            <input type="text" placeholder="c_name">
+            <input type="text" placeholder="c_address">
+            <input type="number" placeholder="B_no">
+        </div>
+        <div class="query">
+            <input type="submit" value="c_insert" id="c_insert" placeholder="Insert">
+            <input type="submit" value="c_delete" id="c_delete" placeholder="Delete">
+            <input type="submit" value="c_Update" id="c_Update" placeholder="Update">
+            <input type="submit" value="c_View" id="c_View" placeholder="View">
+            <div class="query">
+    </form>
+    <script src="backned.js"></script>
+</body>
+
+</html>
